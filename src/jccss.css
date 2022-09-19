@@ -1,0 +1,299 @@
+
+      .container-fluid{
+     
+      margin-right: 15px; 
+      padding:0;
+      }
+      body{
+         
+         
+        margin-left:15px;
+        margin-right:15px;
+        box-shadow: 1px 5px 8px 10px #333;
+      }
+     #header h1{
+               line-height: 1.1;
+      margin-top: 20px;
+      padding: 20px;
+      font-family: Arial;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      color: rgb(153, 67, 70);
+      text-shadow: 1px 1px 2px black, 0 0 25px rgba(128, 70, 71, 0.918), 0 0 5px darkblue;
+}
+      
+     #header img{
+      margin-top:30px;
+      }
+      
+      .navbar{
+    border-radius: 10px;
+    
+}
+.default-color{
+   background-color: rgb(116, 67, 67);
+}
+li a{
+   text-decoration: none;
+   text-transform: capitalize;
+   color: rgb(29, 28, 28) ;
+   margin-right: 10px;
+}
+li a:hover {
+  background-color: rgba(196, 165, 165, 0.747);
+  border-radius: 8px;
+  font-family:'Courier New', Courier, monospace;
+  }
+  .navbar-brand {
+   margin-left: 10px;
+  text-shadow: 1px 1px 1px;
+  text-decoration-line: none;
+  }
+  .navbar-brand:hover{
+   background-color: rgba(196, 165, 165, 0.747);
+  border-radius: 8px;
+  font-family:'Courier New', Courier, monospace;
+  }
+
+      ul{
+      list-style: none;
+      text-decoration-line: none;
+   
+      }
+      .navbar-toggler{
+        border: none;
+      }
+   .dropdown-menu a:hover {
+  background-color: rgba(196, 165, 165, 0.747);
+  border-radius: 8px;
+  font-family:'Courier New', Courier, monospace;
+  }
+      
+      #aboutus{
+         font-style: arial;
+         line-height: 2rem;
+         text-transform:unset;
+         }
+         #aboutus img{
+            box-sizing: border-box;
+            padding: 2px;
+            margin-right: 2px;
+            border-radius:10px;
+            border:5px solid gainsboro;
+            position: relative;
+         }
+         .zoom:hover{
+            cursor: pointer;
+            background-color: white;
+            transform: scale(1.2);
+            transition: 1s;
+         } 
+         #classes img{
+            box-sizing: border-box;
+            padding: 2px;
+            margin-right: 2px;
+            border-radius:5rem;
+            border:5px solid rgba(105, 104, 105, 0);
+            
+         }
+         .img:hover{
+            cursor: pointer;
+            background-color: white;
+            transform: scale(1.1);
+           transition: 1s;
+         }
+         .table{
+            margin-right: 15px;
+           
+         }
+         .row-5{
+         border: 0.7px solid gray;
+         width: 60%;
+         margin-left: auto;
+      }
+      .btn{
+         cursor: pointer;
+      }
+      
+      
+     .card{
+      width:15rem;
+      background-color: rgb(245, 234, 220);
+      margin-bottom: 20px;
+       border: 1px solid rgb(97, 96, 96);
+      box-sizing: border-box;
+      box-shadow: 1px 5px 8px 10px #333333;
+     
+     }
+     .card-text{
+        font-size:1rem;
+        text-transform: capitalize;
+     }
+   #contactus h3{
+      text-shadow: 1px 1px 1px;
+      font-weight: inherit;
+      font-size: 2rem;
+     }
+     form{
+      line-height: 2.2;
+      font-size: 1.3rem;
+      text-transform: capitalize;
+     }
+     #contactus img{
+      margin-right: 10px;
+      box-sizing: border-box;
+      border-style: none;
+      border-radius:100%;
+      box-shadow:5px 8px 10px rgb(228, 228, 228);
+     }
+     #contactus img:hover{
+      transition: 1s;
+      transform: scale();
+      transform: scale();
+     }
+     footer{
+               background-color: #ffede7;
+               line-height: 2.2;
+               list-style: none;
+               
+            }
+            footer h5{
+               letter-spacing: 2px;
+                color: #7f4722;
+                text-transform:uppercase;
+            }
+            footer a{
+               color: #4f4f4f;
+               text-decoration: none;
+               font-size: 18px;
+            }
+          
+               
+               
+                    
+
+        
+              
+             
+              
+               .modal-header h1 {
+               text-align:center;
+               font-family: Arial, Helvetica, sans-serif;
+               color: rgb(59, 55, 55);
+               font-size: 25px;
+               margin-bottom: 5px;
+               margin-bottom: 5px;
+               }
+               .modal-header h2 {
+               text-align: center;
+               font-family: Arial, Helvetica, sans-serif;
+               color: rgb(59, 55, 55);
+               font-size: 20px;
+               margin-top: 5px;
+               }
+               .form-wrapper {
+               margin: 15px;
+               width: 100%;
+               }
+               .form {
+               width: 90%;
+               }
+               #studentimage {
+               height: 80px;
+               width: 80px;
+               border-radius: 5px;
+               font-family: Arial, Helvetica, sans-serif;
+               color: rgb(59, 55, 55);
+               }
+               p {
+               font-family: Arial, Helvetica, sans-serif;
+               color: Black;
+               font-size: 14px;
+               }
+               .form-item {
+               display: flex;
+               margin: auto;
+               align-items: center;
+               width: 80%;
+               }
+               .form-item label {
+               width: 150px;
+               font-size: 14px;
+               font-family: Arial, Helvetica, sans-serif;
+               }
+               .form-item input {
+               margin: 5px 15px;
+               height: 22px;
+               width: 100%;
+               font-size: 13px;
+               border: 1px black solid;
+               border-radius: 5px;
+               }
+               .form-item select {
+               margin: 5px 0px;
+               width: max-content;
+               }
+               .genders {
+               display: flex;
+               align-items: center;
+               font-family: Arial, Helvetica, sans-serif;
+               margin-left: 16px;
+               font-size: 14px;
+               }
+               .genders input {
+               width: 20px;
+               }
+               hr {
+               margin-top: 15px;
+               width: 80%;
+               }
+               .same-perm{
+               display: flex;
+               font-family: Arial, Helvetica, sans-serif;
+               text-align: center;
+               font-size: 13px;
+               margin: 5px 105px;
+               }
+               .register {
+               margin: 25px;
+               background: #1e90ff;
+               font-size: 20px;
+               font-family: Arial, Helvetica, sans-serif;
+               padding: 7px 20px;
+               border-radius: 5px;
+               color: #fbfbfb;
+               border: 0;
+               cursor: pointer;
+               }
+               .register:hover {
+               color: #3a3636;
+               }
+               @media screen and (max-width: 560px) {
+               #Modal {
+               width: 90vw;
+               padding: 10px 5px;
+               }
+               .form-item label {
+               font-size: 14px;
+               }
+               .form-item input {
+               margin: 5px 10px;
+               font-size: 12px;
+               }
+               .genders {
+               margin-left: 10px;
+               font-size: 13px;
+               }
+               .genders input {
+               width: 15px;
+               }
+               .same-perm{
+               font-size: 13px;
+               margin: 5px 50px;
+               }
+               .register {
+               margin: 25px;
+               font-size: 15px;
+               padding: 7px 10px;
+               }
+               }
+            
